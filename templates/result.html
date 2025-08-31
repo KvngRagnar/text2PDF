@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Download PDF</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>✅ Your PDF is Ready!</h1>
+    <a href="/download/{{ filename }}" class="btn">Download PDF</a>
+    <a href="/" class="btn">Convert Another</a>
+  </div>
+</body>
+</html>
+
